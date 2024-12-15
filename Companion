@@ -1,0 +1,7 @@
+cd ../companion
+
+# Initialize a new npm project
+npm init -y
+
+# Install dependencies
+npm install ws network pcap
