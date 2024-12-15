@@ -1,0 +1,16 @@
+cd webapp
+
+# Initialize a new npm project
+npm init -y
+
+# Install dependencies
+npm install react react-dom react-router-dom recharts zustand lucide-react
+npm install -D @vitejs/plugin-react typescript @types/react @types/react-dom tailwindcss postcss autoprefixer vite
+
+# Copy all the source files from the previous messages into their respective locations:
+# - src/App.tsx
+# - src/components/*
+# - src/hooks/*
+# - src/store/*
+# - src/types/*
+# - src/utils/*
